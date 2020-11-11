@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: paleturquoise;
+}
+header{
+  position: fixed;
+  background-color: yellowgreen;
+  height: 60px;
+  width: 100%;
+  color: black;
+}
+
+.header-logo{
+  display: inline;
+  font-weight: normal;
+  padding-left: 30px;
+  float:left;
+  font-size: 35px
+}
+.header-list{
+  display: inline;
+  float: right;
+  font-size: 30px;;
+  padding;
+}
+.header-list a{
+  color: white;
+  float: left;
+  list-style: inherit;
+  padding-right: 15px;
+}
+.main{
+  padding: 30px 15px;
+}
+.copy-container{
+background-image: url(https://cdn.snsimg.carview.co.jp/minkara/photo/000/003/003/640/3003640/p5.jpg);
+background-size: cover;
+background-position: top;
+height: 500px;
+width: inherit;
+ 
+}
+
+.copy-container h1{
+  position: absolute;
+  top: 290px;
+  left: 390px;
+  color: lightseagreen;
+  text-align: center;
+  padding: 30px 50px;
+  font-weight: 700px;
+  font-size: 95px;
+}
+.clear{
+  float:left;
+}
+.contents-item{
+  padding: 15px 10px;
+  font-size: 45px;
+  display: inline-block;
+  vertical-align: middle;
+ 
+}
+.contents-item p{
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+  padding-top: 4px;
+}
+.contents-item ul{
+  display: inline-block;
+  float: inherit;
+}
+
+
+}
+.contents-item img{
+  border-radius: 5px;
+}
