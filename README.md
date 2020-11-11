@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charest="utf-8">
+    <title>伊藤航大の自己紹介</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content=ito koudai＞
+    <!--以下のファイルを読み込みます。-->
+    <link href="CSS/index.css" rel="stylesheet">
+  </head>
+  
+  <body>
+  <header>
+      <div class="header-logo">伊藤航大の自己紹介</div>
+        <div class="header-list">
+            <a href="#title1">プロフィール</a>
+            <a href="#title2">野球</a>
+            <a href="#title3">趣味</a>
+        </div>
+  </header>
+
+
+<div class="main">
+  <div class="copy-container">
+    <div class="clear"></div>
+    <h1> 伊藤航大</h1>
+  </div>
+  <div class="contents">
+    <div class="contents-item">
+      <p id="tittle1">プロフィール</p>
+      <img id="logo" src="証明写真" alt="証明写真" width="400px" height="500px">
+       <ul>
+          <li>伊藤　航大</li>
+          <li>年齢　21歳</li>
+          <li>出身地　埼玉県　志木市</li>
+          <li>所属大学　東洋大学</li>
+       </ul>
+    </div>
+    <div class="contents-item">
+      <p id="tittle2">野球</p>
+      <img src="初雁球場"  alt="球場写真"  width="1400px" height="600px" >
+      <p>
+        高校時代までは野球をしていました。内野を守っていました！<br>
+        最近は全く野球をやっていないので、久しぶりに野球がしたいです！！<br>
+        これは高校時代、よく練習や試合をした球場の様子です。
+      </p>
+    </div>
+    <div class="contents-item">
+      <p id="tittle3">趣味</p>
+      <img src="ドーム東京.jpg_large" alt="東京ドーム" width="1400px" height="700px">
+      <p>
+        筋トレが一番の趣味です。<br>
+        またスポーツ観戦も好きで、特にプロ野球をよく見ます。<br>
+        好きな球団は読売ジャイアンツです。好きな選手は亀井選手です。
+      </p>
+    </div>
+  </div>
+
+
+        
+  </body> 
+</html>
